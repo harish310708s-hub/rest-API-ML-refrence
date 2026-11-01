@@ -1,0 +1,46 @@
+{
+  "model_type": "RandomForestClassifier",
+  "feature_names": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "classes": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "best_params": {
+    "max_depth": 5,
+    "min_samples_leaf": 1,
+    "n_estimators": 300
+  },
+  "cv_roc_auc": 0.9909,
+  "test_roc_auc": 0.9927
+}
